@@ -43,7 +43,7 @@ class Metadata
      * @param string $apiKey apiKey
      * @param string $secret secret
      */
-    public function __construct($apiKey, $secret = null)
+    public function __construct($apiKey=null, $secret = null)
     {
         $this->apiKey = $apiKey;
         $this->secret = $secret;
